@@ -53,6 +53,17 @@
       overflow: hidden;
     }
 
+      button {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px 28px 26px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      backdrop-filter: saturate(1.2) blur(6px);
+      position: relative;
+      overflow: hidden;
+        }
+    
     /* decorative glow corners */
     .card:before, .card:after {
       content: "";
@@ -227,6 +238,7 @@
           <div>
             <h1 class="name">@KWN</h1>
             <p class="tagline">For the knowns</p>
+            <button onclick="window.location.redirect('https://discord.gg/jwNWbuMF2n')">Join</button>
           </div>
         </div>
       </div>
